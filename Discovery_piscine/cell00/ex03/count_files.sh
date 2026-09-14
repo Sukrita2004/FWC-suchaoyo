@@ -1,1 +1,3 @@
-echo 'find . -type f -o -type d | wc -l | tr -d " "' > count_files.sh
+#!/usr/bin/env bash
+find . -type f -o -type d | wc -l | tr -d " "
+
