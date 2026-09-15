@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4; 
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333; 
+}
+
+.main-menu > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+
+.main-menu > ul > li > a {
+    color: white; 
+}
+
+.main-menu > ul > li > a:hover {
+    background-color: #555; 
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: white; 
+    border: 1px solid #ccc;  
+    min-width: 160px; 
+}
+
+
+.sub-menu a {
+    color: #333; 
+}
+.sub-menu a:hover {
+    background-color: #f0f0f0;
+}
+.dropdown:hover .sub-menu {
+    display: block;
+}
