@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    background-image: url('https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg');
+} 
+
+.img2 {
+    background-image: url('https://www.waggel.co.uk/cdn-cgi/image/fit=cover,format=auto,width=640,height=300/https://images.ctfassets.net/4cuokmrwdiqv/67uj5prPY53i0MNjO9ZSxt/9b231a6b974c32ccda04ab4a00a6c84d/golden-retriever-breed_blog_image-04_2000x1000_29-09-25.jpg');
+}
+
+.text-center {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+.content-block {
+    background-color: black;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
