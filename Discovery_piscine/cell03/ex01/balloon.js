@@ -4,18 +4,16 @@ let size = 200;
 const colors = ['red', 'green', 'blue'];
 let colorIndex = 0;
 
-// เมื่อคลิกลูกโป่ง
 balloon.addEventListener('click', function() {
     size += 10;
     if (size > 420) {
         size = 200;
         colorIndex = 0;
     } else {
-        // วนสีไปข้างหน้า: Red -> Green -> Blue
         colorIndex = (colorIndex + 1) % colors.length;
     }
 
-    updateBalloon();
+    updateBalloonja();
 });
 
 balloon.addEventListener('mouseleave', function() {
@@ -27,10 +25,10 @@ balloon.addEventListener('mouseleave', function() {
         colorIndex = (colorIndex - 1 + colors.length) % colors.length;
     }
 
-    updateBalloon();
+    updateBalloonja();
 });
 
-function updateBalloon() {
+function updateBalloonja() {
     balloon.style.width = size + 'px';
     balloon.style.height = size + 'px';
     balloon.style.backgroundColor = colors[colorIndex];

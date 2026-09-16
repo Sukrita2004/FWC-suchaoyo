@@ -1,0 +1,8 @@
+/* เว้นระยะด้านบนเพื่อไม่ให้ Fixed Navbar บังเนื้อหา */
+body {
+    padding-top: 56px;
+}
+
+.content-wrapper section {
+    min-height: 50vh;
+}

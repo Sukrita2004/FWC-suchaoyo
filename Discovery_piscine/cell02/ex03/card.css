@@ -14,7 +14,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* ตัวการ์ดแบบมินิมอลตามรูปตัวอย่าง */
 .card {
     width: 280px;
     border: 1px solid #ccc;
@@ -50,7 +49,6 @@ td img {
     font-size: 14px;
 }
 
-/* Social Icons */
 .socials img {
     width: 18px;
     height: 18px;
@@ -58,7 +56,6 @@ td img {
     margin: 0 4px;
 }
 
-/* ปุ่ม Contact สีดำติดขอบล่าง */
 .contact-td {
     padding: 0;
     padding-top: 10px;

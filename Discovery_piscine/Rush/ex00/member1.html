@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member 1 - Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fixed Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">← Back to Home</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#skills">Skills & Experience</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-wrapper">
+        <!-- Part 1: Profile -->
+        <section id="about" class="py-5 text-center bg-white border-bottom">
+            <div class="container">
+                <img src="https://via.placeholder.com/150" class="rounded-circle mb-3 border shadow-sm" alt="Profile Photo">
+                <h1 class="fw-bold">Member 1</h1>
+                <p class="lead text-primary">Software Engineer</p>
+            </div>
+        </section>
+
+        <!-- Part 2: Skills & Experience -->
+        <section id="skills" class="py-5 bg-light border-bottom">
+            <div class="container">
+                <h2 class="text-center mb-4">Skills & Experience</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h4>Professional Skills</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">HTML5 / CSS3 / JavaScript</li>
+                            <li class="list-group-item">Bootstrap 5 & Responsive Design</li>
+                            <li class="list-group-item">Git & GitHub Workflow</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h4>Experience</h4>
+                        <div class="border p-3 rounded bg-white shadow-sm">
+                            <h5>Piscine Student</h5>
+                            <small class="text-muted">42 Network — 2026</small>
+                            <p class="mt-2">Building web apps using vanilla JS, jQuery, and responsive CSS frameworks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Contact -->
+        <section id="contact" class="py-5 bg-white text-center">
+            <div class="container">
+                <h2 class="mb-4">Contact Me</h2>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="mailto:member1@student.42.fr" class="btn btn-outline-primary">Email Me</a>
+                    <a href="https://github.com" target="_blank" class="btn btn-outline-dark">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-outline-info">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
