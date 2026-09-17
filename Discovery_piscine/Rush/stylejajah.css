@@ -1,0 +1,182 @@
+/* ==========================================
+   Global & Theme Setup (Barbie Pink Theme)
+   ========================================== */
+:root {
+    --primary-color: #e61f93;      /* Barbie Pink */
+    --primary-hover: #c4147a;      /* Darker Pink */
+    --dark-pink: #850b50;          /* Deep Magenta for text */
+    --light-bg: #fff0f6;           /* Soft Light Pink */
+    --border-color: #fcc2d7;       /* Soft Pink Border */
+    --text-color: #4a2035;         /* Deep Plum Text */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+
+/* ==========================================
+   Navbar Styling
+   ========================================== */
+.navbar {
+    background-color: #e61f93 !important; /* Barbie Pink */
+    box-shadow: 0 2px 10px rgba(230, 31, 147, 0.25);
+}
+
+.navbar-brand, 
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    transition: opacity 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffe3e3 !important;
+    opacity: 0.85;
+}
+
+/* ==========================================
+   Profile / About Section
+   ========================================== */
+#about {
+    background: linear-gradient(180deg, #ffffff 0%, var(--light-bg) 100%);
+}
+
+.profile-img {
+    width: 500px;         
+    height: 500px;         
+    object-fit: cover;     
+    border-radius: 12px;   
+    border: 4px solid var(--primary-color) !important;
+    max-width: 100%;      
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.02);
+}
+
+/* ==========================================
+   Section Headers & Cards
+   ========================================== */
+h1, h2, h3, h4, h5 {
+    color: var(--dark-pink);
+}
+
+h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+/* เส้นขีดใต้หัวข้อ */
+#Personal h2::after, #skills h2::after, #contact h2::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+#skills h2.text-center::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#skills h4 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+#skills h4::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: var(--primary-color);
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.bg-light {
+    background-color: var(--light-bg) !important;
+}
+
+/* ตกแต่งการ์ดความรู้ / ประสบการณ์ */
+.border.rounded {
+    border-color: var(--border-color) !important;
+    border-radius: 12px !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.border.rounded:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(230, 31, 147, 0.18) !important;
+}
+
+/* ==========================================
+   Skills List Group
+   ========================================== */
+.list-group-item {
+    border-color: var(--border-color);
+    color: var(--text-color);
+    padding: 12px 16px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* ==========================================
+   Buttons (Contact Section)
+   ========================================== */
+.btn-outline-primary {
+    color: var(--dark-pink);
+    border-color: var(--primary-color);
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.btn-outline-dark {
+    color: var(--dark-pink);
+    border-color: var(--dark-pink);
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--dark-pink);
+    color: #ffffff;
+}
+
+.btn-outline-info {
+    color: #f06595;
+    border-color: #f06595;
+}
+
+.btn-outline-info:hover {
+    background-color: #f06595;
+    color: #ffffff;
+}
+
+/* ==========================================
+   Images inside Cards
+   ========================================== */
+#Personal img {
+    border-radius: 8px;
+    border-color: var(--border-color) !important;
+}

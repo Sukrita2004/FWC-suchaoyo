@@ -1,0 +1,112 @@
+
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("img/barbie.webp") no-repeat center center fixed;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* ==========================================
+   2. MAIN WHITE CONTAINER
+   ========================================== */
+.showcase-card {
+    background: #ffffff !important;         /* พื้นหลังสีขาวบริสุทธิ์ตามรูป */
+    border-radius: 12px;
+    padding: 24px 28px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    width: 620px !important;               /* ปรับขนาดความกว้างตามรูปตัวอย่าง */
+    max-width: 90%;
+    color: #000000;
+}
+
+/* ==========================================
+   3. TYPOGRAPHY & HEADINGS
+   ========================================== */
+.showcase-card h1 {
+    font-size: 1.35rem !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000000 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px !important;
+}
+
+.showcase-card .lead {
+    color: #555555 !important;
+    font-size: 0.65rem !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px !important;
+}
+
+hr {
+    display: none !important;              /* ซ่อนเส้นกั้นตามตัวอย่าง */
+}
+
+/* ==========================================
+   4. MEMBER CARDS & RECTANGLE IMAGES
+   ========================================== */
+.member-card {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+.member-card:hover {
+    transform: none !important;
+}
+
+.member-card img {
+    object-fit: cover !important;
+    border-radius: 8px !important;
+    margin-bottom: 10px !important;
+    border: none !important;
+}
+
+.member-card h4 {
+    font-size: 15px;
+    font-weight: 100 !important;
+}
+
+.member-card p {
+    font-size: 12px;
+    font-weight: 100 !important;
+}
+
+/* ==========================================
+   5. BUTTONS (VALORANT STYLE)
+   ========================================== */
+.member-card .btn {
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+    font-size: 0.7rem !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none !important;
+}
+
+.member-card .btn-primary {
+    background-color: #7bb5f0 !important;  
+    color: #ffffff !important;
+}
+
+.member-card .btn-dark {
+    background-color: #f088a3 !important;  
+    color: #ffffff !important;
+}
