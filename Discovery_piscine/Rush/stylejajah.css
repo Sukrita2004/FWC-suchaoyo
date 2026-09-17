@@ -13,11 +13,8 @@ body {
     background-color: #ffffff;
 }
 
-/* ==========================================
-   Navbar Styling
-   ========================================== */
 .navbar {
-    background-color: #e61f93 !important; /* Barbie Pink */
+    background-color: #e61f93 !important; 
     box-shadow: 0 2px 10px rgba(230, 31, 147, 0.25);
 }
 
@@ -32,9 +29,7 @@ body {
     opacity: 0.85;
 }
 
-/* ==========================================
-   Profile / About Section
-   ========================================== */
+
 #about {
     background: linear-gradient(180deg, #ffffff 0%, var(--light-bg) 100%);
 }
@@ -53,9 +48,7 @@ body {
     transform: scale(1.02);
 }
 
-/* ==========================================
-   Section Headers & Cards
-   ========================================== */
+
 h1, h2, h3, h4, h5 {
     color: var(--dark-pink);
 }
@@ -66,7 +59,6 @@ h2 {
     padding-bottom: 8px;
 }
 
-/* เส้นขีดใต้หัวข้อ */
 #Personal h2::after, #skills h2::after, #contact h2::after {
     content: '';
     position: absolute;
@@ -116,9 +108,7 @@ h2 {
     box-shadow: 0 8px 20px rgba(230, 31, 147, 0.18) !important;
 }
 
-/* ==========================================
-   Skills List Group
-   ========================================== */
+
 .list-group-item {
     border-color: var(--border-color);
     color: var(--text-color);
@@ -135,9 +125,6 @@ h2 {
     border-bottom-right-radius: 10px;
 }
 
-/* ==========================================
-   Buttons (Contact Section)
-   ========================================== */
 .btn-outline-primary {
     color: var(--dark-pink);
     border-color: var(--primary-color);
@@ -170,9 +157,6 @@ h2 {
     color: #ffffff;
 }
 
-/* ==========================================
-   Images inside Cards
-   ========================================== */
 #Personal img {
     border-radius: 8px;
     border-color: var(--border-color) !important;

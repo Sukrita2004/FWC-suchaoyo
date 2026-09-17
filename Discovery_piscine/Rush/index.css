@@ -17,22 +17,16 @@ body {
     font-family: 'Arial Black', sans-serif;
 }
 
-/* ==========================================
-   2. MAIN WHITE CONTAINER
-   ========================================== */
 .showcase-card {
-    background: #ffffff !important;         /* พื้นหลังสีขาวบริสุทธิ์ตามรูป */
+    background: #ffffff !important;       
     border-radius: 12px;
     padding: 24px 28px !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    width: 620px !important;               /* ปรับขนาดความกว้างตามรูปตัวอย่าง */
+    width: 620px !important;             
     max-width: 90%;
     color: #000000;
 }
 
-/* ==========================================
-   3. TYPOGRAPHY & HEADINGS
-   ========================================== */
 .showcase-card h1 {
     font-size: 1.35rem !important;
     font-weight: 900;
@@ -54,12 +48,9 @@ body {
 }
 
 hr {
-    display: none !important;              /* ซ่อนเส้นกั้นตามตัวอย่าง */
+    display: none !important;             
 }
 
-/* ==========================================
-   4. MEMBER CARDS & RECTANGLE IMAGES
-   ========================================== */
 .member-card {
     background: transparent !important;
     border: none !important;
@@ -88,9 +79,6 @@ hr {
     font-weight: 100 !important;
 }
 
-/* ==========================================
-   5. BUTTONS (VALORANT STYLE)
-   ========================================== */
 .member-card .btn {
     border-radius: 6px !important;
     padding: 8px 12px !important;
