@@ -1,13 +1,10 @@
-/* ==========================================
-   Global & Theme Setup (Barbie Pink Theme)
-   ========================================== */
 :root {
-    --primary-color: #e61f93;      /* Barbie Pink */
-    --primary-hover: #c4147a;      /* Darker Pink */
-    --dark-pink: #850b50;          /* Deep Magenta for text */
-    --light-bg: #fff0f6;           /* Soft Light Pink */
-    --border-color: #fcc2d7;       /* Soft Pink Border */
-    --text-color: #4a2035;         /* Deep Plum Text */
+    --primary-color: #e61f93;     
+    --primary-hover: #c4147a;      
+    --dark-pink: #850b50;          
+    --light-bg: #fff0f6;           
+    --border-color: #fcc2d7;       
+    --text-color: #4a2035;         
 }
 
 body {
@@ -82,7 +79,7 @@ h2 {
 }
 
 #skills h2.text-center::after {
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
 }
 

@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #7bb5f0;
-    --primary-hover: #5a9ee6;
-    --dark-blue: #1e293b;
-    --light-bg: #f4f8fc;
-    --border-color: #d1e3f8;
-    --text-color: #334155;
+    --primary-color: #89cff0;      
+    --primary-hover: #6cb8e6;    
+    --dark-blue: #2c4a6f;         
+    --light-bg: #f0f7ff;          
+    --border-color: #cce5ff;      
+    --text-color: #385273;       
 }
 
 body {
@@ -14,9 +14,11 @@ body {
 }
 
 
+   /* Navbar Styling */
+
 .navbar {
-    background-color: #6495ED !important; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    background-color: #89cff0 !important; /* Pastel Blue */
+    box-shadow: 0 2px 10px rgba(137, 207, 240, 0.4);
 }
 
 .navbar-brand, 
@@ -26,13 +28,12 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #e0e7ff !important; 
-    opacity: 0.8;
+    color: #e6f3ff !important; 
+    opacity: 0.85;
 }
 
 
    /* Profile / About Section */
-
 #about {
     background: linear-gradient(180deg, #ffffff 0%, var(--light-bg) 100%);
 }
@@ -51,8 +52,8 @@ body {
     transform: scale(1.02);
 }
 
-   /* Section Headers & Cards */
-
+/* 
+   Section Headers & Cards */
 h1, h2, h3, h4, h5 {
     color: var(--dark-blue);
 }
@@ -63,7 +64,7 @@ h2 {
     padding-bottom: 8px;
 }
 
-/* เส้นขีดใต้หัวข้อ */
+
 #Personal h2::after, #skills h2::after, #contact h2::after {
     content: '';
     position: absolute;
@@ -76,18 +77,11 @@ h2 {
 }
 
 #skills h2.text-center::after {
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
 }
 
-.bg-light {
-    background-color: var(--light-bg) !important;
-}
-
-
-
-
-/* #skills h4 {
+#skills h4 {
     position: relative;
     display: inline-block;
     padding-bottom: 8px;
@@ -102,8 +96,11 @@ h2 {
     bottom: 0;
     left: 0;
     border-radius: 2px;
-} */
+}
 
+.bg-light {
+    background-color: var(--light-bg) !important;
+}
 
 .border.rounded {
     border-color: var(--border-color) !important;
@@ -113,11 +110,11 @@ h2 {
 
 .border.rounded:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(123, 181, 240, 0.2) !important;
+    box-shadow: 0 8px 20px rgba(137, 207, 240, 0.3) !important;
 }
 
 
-/* Skills List Group */
+   /* Skills List Group */
 
 .list-group-item {
     border-color: var(--border-color);
@@ -135,8 +132,7 @@ h2 {
     border-bottom-right-radius: 10px;
 }
 
-
-/* Buttons (Contact Section) */
+   /* Buttons (Contact Section) */
 .btn-outline-primary {
     color: var(--dark-blue);
     border-color: var(--primary-color);
@@ -149,22 +145,26 @@ h2 {
     color: #ffffff;
 }
 
+.btn-outline-dark {
+    color: var(--dark-blue);
+    border-color: var(--dark-blue);
+}
+
 .btn-outline-dark:hover {
     background-color: var(--dark-blue);
-}
-
-.btn-outline-info {
-    color: #0284c7;
-    border-color: #38bdf8;
-}
-
-.btn-outline-info:hover {
-    background-color: #38bdf8;
     color: #ffffff;
 }
 
+.btn-outline-info {
+    color: #52a2da;
+    border-color: #89cff0;
+}
 
-/* Images inside Cards */
+.btn-outline-info:hover {
+    background-color: #89cff0;
+    color: #ffffff;
+}
+
 #Personal img {
     border-radius: 8px;
     border-color: var(--border-color) !important;
